@@ -1,0 +1,298 @@
+//psr
+//incubation
+https://kb.epam.com/pages/viewpage.action?pageId=2023152797
+https://learn.epam.com/study/path?rootId=1435523
+https://bitbucket.org/vinaybonita/java8/src/master/src/main/java/java8/order/queries/OrdersTest.java
+//java-11
+https://epam-my.sharepoint.com/:p:/p/damodara_gottipalli/EcPjW4LGIhdKskB9Yr6QV0oBvA3IFaoa4YKJaVRQ5Jv3VA?e=GTSkgr
+
+//leetcode
+https://leetcode.com/studyplan/top-interview-150/
+//jpa-hibernate embeddedId and composite key embeddedId
+https://www.youtube.com/watch?v=8pG80eERkE8
+https://www.youtube.com/watch?v=pWqC0CvDnZc //embedded
+
+//java-8
+https://medium.com/javarevisited/java-8s-consumer-predicate-supplier-and-function-bbc609a29ff9
+
+//spring-@value 
+https://www.javaguides.net/2023/02/spring-value-annotation-example.html
+
+//space time complexity
+https://www.youtube.com/watch?v=2y9bPCJoCbQ
+https://www.youtube.com/watch?v=jUy5N-3RAjo
+https://www.youtube.com/watch?v=D6xkbGLQesk
+
+https://leetcode.com/problems/merge-sorted-array/submissions/?envType=study-plan-v2&envId=top-interview-150 (mergesorted)
+
+//mulithread interview
+https://medium.com/java-interview-revision-question-bank/everything-about-java-multithreading-be234f5ac119
+
+//hibernate n+1
+https://www.youtube.com/watch?v=_6Ni_wxfoyI
+
+//spring profiles
+https://reflectoring.io/dont-use-spring-profile-annotation/
+
+//multiple datasources:
+https://www.youtube.com/watch?v=iDogrHEo4x0
+https://www.youtube.com/watch?v=k-1OboD7X5w
+
+//interceptor
+https://hackernoon.com/how-to-intercept-http-request-response-in-spring-boot
+https://www.youtube.com/watch?v=ZjwDBc9kFfU
+//collections internal
+----------------------
+https://www.youtube.com/watch?v=MZL086hmGZ4 (hashset)
+https://javaconceptoftheday.com/how-hashset-works-internally-in-java/ (hashest)
+https://www.youtube.com/watch?v=7fby_jzPAbg (hashtable)
+https://www.youtube.com/watch?v=6Zzm4esAi7A&t=284s (concurrenthashmap)
+
+//cylicbarier
+https://www.youtube.com/watch?v=tTNrG7gAxks
+
+//grpc
+https://www.youtube.com/watch?v=yK6QVODzPDU
+
+//rest-api best approach design
+https://restfulapi.net/resource-naming/
+
+//spring-redis
+https://www.youtube.com/watch?v=AiNL1X-dhkc (cache)
+https://www.youtube.com/watch?v=LUrk5xEXAf4 (message broker)
+https://www.youtube.com/watch?v=oRGqCz8OLcM (redis-db)
+https://www.youtube.com/watch?v=vpe4aDu5ixI (cahe-javatechi)
+https://www.youtube.com/watch?v=WL6dgIODj9Y (message broker-javatechie) 
+
+//stateful vs staleless
+https://www.youtube.com/watch?v=gxTJPeY26rs
+https://www.youtube.com/watch?v=t7_8z36N3WM 
+https://www.geeksforgeeks.org/difference-between-stateless-and-stateful-protocol/
+
+//lazy vs eager
+https://www.tutorialspoint.com/difference-between-lazy-and-eager-loading-in-hibernate
+
+//cookies vs sessions
+https://www.youtube.com/watch?v=Ae3WBXMMlXA
+
+//graphql-spring
+https://www.youtube.com/watch?v=_raXT2TiDz0 (javatechie)
+
+//design-patterns
+https://www.youtube.com/watch?v=k4EkJgY9P4c (builder)
+https://www.youtube.com/watch?v=2H_UwwarDk4 (buider)
+https://www.youtube.com/watch?v=pt1IbV1aSZ4 (factory)
+https://www.youtube.com/watch?v=k86uJ3uPtug (FacadePattern)
+https://www.youtube.com/watch?v=EssEjeKAMZk (proxy pattern)
+https://javagoal.com/abstract-factory-design-pattern/ (abstract factory pattern)
+https://www.youtube.com/watch?v=AiZHLvu-_Fo (prototype pattern)
+https://medium.com/@techisbeautiful/five-popular-use-cases-to-apply-singleton-pattern-to-your-software-project-5145d5841d18 (singletone)
+
+
+//Dynatraces
+https://www.youtube.com/watch?v=08zssm5rT0Y
+
+//class-loaders
+https://www.javatpoint.com/classloader-in-java
+
+//splunk
+https://www.youtube.com/watch?v=VO20SgiTTOU
+
+//spring-boot -integration test
+https://www.youtube.com/watch?v=Hh17JDpsKqc
+
+//spring-boot -fileupload-download
+https://www.youtube.com/watch?v=XUL60-Ke-L8
+
+//spring-casandara
+https://www.youtube.com/watch?v=E4jzcOuB39o
+
+//saga
+https://www.youtube.com/watch?v=WGI_ciUa3FE&t=10s
+
+//spring-microservices-exceptionhandling
+https://www.youtube.com/watch?v=gPnd-hzM_6A&t=956s //global expection
+https://www.youtube.com/watch?v=zqUiOBng_5M&t=26s
+
+//spring-actuator
+https://www.youtube.com/watch?v=t1_RbTb3BUo
+https://www.youtube.com/watch?v=ylzsHzRqvgc
+https://medium.com/javarevisited/demystifying-spring-boot-actuator-monitoring-and-managing-your-applications-with-ease-b03d66c211b9
+
+//Hibrnate vs jpa
+https://www.youtube.com/watch?v=_M4e-eaYnzU
+https://www.youtube.com/watch?v=hM9wkQBFdDw
+https://www.youtube.com/watch?v=otinfgwkMbY
+
+//spring-data-jpa
+https://www.youtube.com/watch?v=4Py9RTVWyvE&t=3s
+
+//crudRepository vs jpaRepository
+https://javatute.com/jpa/difference-between-crudrepository-and-jparepository-in-spring-data-jpa/
+https://www.geeksforgeeks.org/spring-boot-difference-between-crudrepository-and-jparepository/   --imp
+https://www.tutorialspoint.com/difference-between-crudrepository-and-jparepository-in-java
+
+//spring-transaction
+https://www.youtube.com/watch?v=95kxPSbHzVg&t=1662s
+//spring-propagations
+https://www.youtube.com/watch?v=EONu83_EUyc
+https://www.javainuse.com/spring/boot-transaction-propagation (propagation)
+//spring-isolationlevels
+https://www.javainuse.com/spring/boot-transaction-isolation
+https://www.youtube.com/watch?v=UgTZ1Tun-wg
+
+//spring-aop
+https://www.youtube.com/watch?v=xdl1b97GANk
+
+//spring-jwt
+https://www.youtube.com/watch?v=rBNOc4ymd1E
+https://www.youtube.com/watch?v=NcLtLZqGu2M&t=1143s
+
+//spring-batch
+https://www.youtube.com/watch?v=hr2XTbKSdAQ
+
+//spring-bean-lifecylce
+https://www.youtube.com/watch?v=mFBm2QH0a3E
+https://www.geeksforgeeks.org/bean-life-cycle-in-java-spring/
+
+//spring with Hibernate
+https://www.youtube.com/watch?v=7h93K98kSV8
+
+custom starter:
+https://www.javadevjournal.com/spring-boot/spring-boot-custom-starter/
+
+//custom annotation
+https://www.youtube.com/watch?v=P5sAaFY3O2w 
+
+//spring-commondLineRunner
+https://www.youtube.com/watch?v=CIBzL0mwZ7U
+https://www.youtube.com/watch?v=jfkoVFifWB4
+
+//mockito
+https://mkyong.com/spring-boot/mockito-how-to-mock-repository-findbyid-thenreturn-optional/
+https://medium.com/@bubu.tripathy/common-mistakes-while-using-mockito-6b4cb7940085 (imp examples)
+https://www.youtube.com/watch?v=kXhYu939_5s
+//mockito-mvc
+https://www.youtube.com/watch?v=fN8VAdYfJB8
+//mockito-powermock(static,final,private)
+https://www.youtube.com/watch?v=WBZHm4UlPPE
+//mock and injectmock theroy
+https://www.geeksforgeeks.org/difference-between-mock-and-injectmocks-in-mockito/
+
+//fileupload and download
+https://www.youtube.com/watch?v=7L1BSy5pnGo
+https://www.youtube.com/watch?v=XUL60-Ke-L8 
+
+//tdd-bdd
+https://www.softwaretestinghelp.com/tdd-vs-bdd/
+https://www.youtube.com/watch?v=UzRa5cLma0g (tdd)
+https://www.youtube.com/watch?v=8AEQt4CSX5U (bdd)
+
+//spring-security
+https://www.youtube.com/watch?v=tDZPdovCH4I
+https://www.youtube.com/watch?v=1ERV-6cz2xk //security-internalwork
+//spring-security-keyclock
+https://www.youtube.com/watch?v=La082JsJoH4
+https://www.youtube.com/watch?v=rcvAmBoDlLk
+
+//spring-profile
+https://www.youtube.com/watch?v=T5Y9fq3TWto
+
+//spring-idempotent
+https://www.youtube.com/watch?v=r42lWjGD8as
+
+//solid
+https://medium.com/backticks-tildes/the-s-o-l-i-d-principles-in-pictures-b34ce2f1e898
+https://medium.com/@javatechie/solid-design-principle-java-ae96a48db97 (lsp)
+https://www.javatpoint.com/solid-principles-java
+
+The Liskov Substitution Principle (LSP) states that an object of a child
+class must be able to replace an object of the parent class without breaking the application.623067419686
+
+//garbage collection
+https://www.geeksforgeeks.org/garbage-collection-java/
+https://www.javatpoint.com/types-of-garbage-collector-in-java#:~:text=The%20only%20difference%20between%20serial,speed%20up%20the%20application%20throughput. //types garabage collector
+https://newrelic.com/blog/best-practices/java-garbage-collection (types)
+https://medium.com/@khurshidbek-bakhromjonov/java-memory-management-understanding-the-jvm-heap-method-area-stack-24a4d4fa2363
+
+//class loader
+https://www.javatpoint.com/classloader-in-java
+https://www.geeksforgeeks.org/classloader-in-java/
+
+//java8 hashmap changes
+https://www.studytonight.com/post/hashmap-performance-improvements-in-java-8-using-treeify-threshold
+
+//hashmap
+https://prateeknima.medium.com/internal-working-of-hashmap-in-java-e5b67890e152
+
+//enum vs constant
+https://www.baeldung.com/cs/enums-vs-constants
+
+//password stroe char[] array 
+https://www.tutorialspoint.com/why-char-array-is-more-secure-store-sensitive-data-than-string-in-java
+
+//fork-join
+https://www.javatpoint.com/fork-join-in-java
+
+//cylicbarrier
+http://www.java2s.com/example/java-book/barriers.html
+https://jenkov.com/tutorials/java-util-concurrent/cyclicbarrier.html
+https://www.youtube.com/watch?v=eO2CQo717BU (yt)
+
+//feign client
+https://www.youtube.com/watch?v=tlshVRtbS_c (yt)
+
+//Embeded and @Idclass
+https://www.youtube.com/watch?v=8pG80eERkE8
+
+//resilence4j
+https://www.youtube.com/watch?v=b6R4dElDtRc (yt)
+
+//database per service pattern
+https://www.youtube.com/watch?v=ecUbHNsxmwQ
+
+//microservices design pattern
+https://medium.com/javarevisited/top-10-microservice-design-patterns-for-experienced-developers-f4f5f782810e
+
+//spring-cloud
+https://www.youtube.com/watch?v=jDJYLnmDDvs (yt)
+
+//spring-reactive
+https://www.youtube.com/watch?v=ckfqcfzCg3w&t=273s
+https://www.youtube.com/watch?v=O26jhgk682Q
+
+//spring-lookup bean
+https://www.youtube.com/watch?v=BR81_Y6Pd_s
+
+//Hashing technique
+https://www.geeksforgeeks.org/what-is-hashing/?ref=lbp
+
+//sonar-springboot
+https://www.youtube.com/watch?v=sQ7_pcaw-iM
+
+//mongodb
+https://www.youtube.com/watch?v=ZQuQ-wHuPlg
+
+//ds-binary search
+https://www.freecodecamp.org/news/binary-search-in-java-algorithm-example/
+
+//ds-linear serach
+https://www.javatpoint.com/linear-search-in-java
+
+//kafka installation windows
+https://www.youtube.com/watch?v=BwYFuhVhshI
+
+//singletone
+https://www.digitalocean.com/community/tutorials/java-singleton-design-pattern-best-practices-examples
+
+//jenkins
+https://www.youtube.com/watch?v=SONEaty1ydk&list=PLpLBSl8eY8jSfTFMJ4DuTGZS2fUYDqmQE (ashok it)
+https://www.youtube.com/watch?v=Nw3UohhcPO0&list=PLVz2XdJiJQxwS0BZUHX34ocLTJtRGSQzN&index=1 (javatechie)
+https://www.youtube.com/watch?v=PKcGy9oPVXg&t=192s (javatechie) docker,ci/cd deploy into springboot
+https://www.youtube.com/watch?v=vBoOXP6BkDI&t=16s  (javatechie) docker,ci/cd ,kubernets into spring boot
+
+//kubernets
+https://www.youtube.com/watch?v=qof9A8k64rA&list=PLVz2XdJiJQxybsyOxK7WFtteH42ayn5i9 (basic overview)
+https://www.youtube.com/watch?v=bJD_loVTqHI&list=PLVz2XdJiJQxybsyOxK7WFtteH42ayn5i9&index=2 (components)
+https://www.youtube.com/watch?v=gyN9n2gvbF0&list=PLVz2XdJiJQxybsyOxK7WFtteH42ayn5i9&index=3  (architeture)
+https://www.youtube.com/watch?v=xhxmExC9N1U&list=PLVz2XdJiJQxybsyOxK7WFtteH42ayn5i9&index=4  (kub-installation,cmd with springb-deploy into cluster)

@@ -1,0 +1,18 @@
+Required Commands:
+.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
+
+.\bin\windows\kafka-server-start.bat .\config\server.properties
+
+//cmd topic creation
+kafka-topics.bat --create --topic learning-tech --bootstrap-server localhost:9092
+
+//rest-api publish or not checking topic (rest call)
+kafka-console-consumer.bat --bootstrap-server localhost:9092 --topic learning-tech
+
+//spring-boot with publisher
+https://www.youtube.com/watch?v=clouToNoxGM (yt)
+//producer-kafja
+https://www.youtube.com/watch?v=rVqAoUIPO7I (yt)
+//consumer kafka
+https://www.youtube.com/watch?v=d0T9g0_G_3U
+
