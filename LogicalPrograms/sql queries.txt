@@ -1,0 +1,185 @@
+New User creation:
+-----------------
+create user chole@localhost identified by 'chole@12345';
+
+chekcing user account is exist or not:
+-------------------------------------
+CREATE USER IF NOT EXISTS chole@localhost identified by 'chole@12345';
+
+GRANT ALL PRIVILEGES ON *.* TO chole@localhost;
+GRANT CREATE,SELECT,INSERT ON *.* ON TO chole@localhsot;
+SHOW GRANTS for username;
+
+DROP USER chole@localhost;
+select user from user;
+select user; or select current_user();
+change pwd:
+----------
+update user set password=PASSWORD('chole@12345') where user='chole' AND host='localhost';
+FLUSH PRIVILEGES;
+
+DatabaseCreation:
+-----------------
+CREATE DATABASE employeesdb;
+SHOW CREATE DATABASE employeekdb;
+SHOW DATABASES;
+USE employeedb;
+DROP DB:
+--------
+DROP DATABASE mytestdb_copy;
+
+GroupBy:
+SELECT `gender` FROM `members` GROUP BY `gender`;
+SELECT `category_id`,`year_released` FROM `movies` GROUP BY `category_id`,`year_released`;
+SELECT `gender`,COUNT(`membership_number`)  FROM `members` GROUP BY `gender`;
+
+url;https://www.guru99.com/group-by.html#:~:text=SQL%20Having%20Clause%20is%20used,by%20one%20or%20more%20columns.
+
+//performance tuning
+https://www.youtube.com/watch?v=fSk0wdIREJE
+https://www.youtube.com/watch?v=zRSTrL-AJRs (table partitons)
+
+//ddl vs dml
+https://www.geeksforgeeks.org/difference-between-ddl-and-dml-in-dbms/
+Having:
+-------
+https://www.javatpoint.com/mysql-having
+SELECT emp_name, SUM(working_hours) AS "Total working hours"  
+FROM employees  
+GROUP BY emp_name  
+HAVING SUM(working_hours) > 5;  
+
+First Highest salary:
+--------------------
+select max(salary) from employee;
+SELECT salary from employee order by salary desc limit 1;
+Second Highest salary:
+---------------------
+select *from employee group by salary order by  salary desc limit 1,1;
+
+SELECT salary FROM Employee ORDER BY salary DESC LIMIT 1,1
+Third and Fourth.....Highest salaries:
+-------------------------------------
+SELECT salary from employee order by salary desc limit 1 OFFSET 2;
+SELECT salary from Employee order by salary desc limit 2,1;
+
+Two tables joints highest salary:
+---------------------------------
+select e_name,e_salary from  emp_info a
+inner join emp_salary b on a.emp_id=b.emp_id
+where e_salary in (select max(e_salary) from emp_salary) 
+OR
+select age from  Customers a
+inner join Orders b on a.customer_id=b.order_id
+where age in (select age from Customers order by age desc limit 1,1) ;
+
+
+Table:
+--------
+CREATE TABLE Student(
+   ID   INT NOT NULL AUTO_INCREMENT,
+   NAME VARCHAR(20) NOT NULL,
+   AGE  INT NOT NULL,
+   PRIMARY KEY (ID)
+);
+
+//alter 
+https://www.javatpoint.com/mysql-alter-table
+ALTER table:
+------------
+ALTER TABLE student ADD std_addr varchar(50) NOT NULL;
+
+ALTER TABLE STUDENT ADD std_addr varchar(100) NOT NULL AFTER std_surname,ADD std_roll int(100) NOT NULL AFTER std_percent;
+
+RENAME TABLE:
+------------
+RENAME STUDENT TO EMPLOYEE;
+SELECT:
+-------
+SELECT * FROM STUDENT:
+
+procedure:
+---------
+
+CREATE PROCEDURE get_student (IN var1 INT)  
+BEGIN  
+    SELECT * FROM student_info LIMIT var1;  
+    SELECT COUNT(stud_code) AS Total_Student FROM student_info;    
+END &&  
+
+ CALL get_student(4);  
+
+@Procedure(name = "getAllEmployees")
+List<Employees> getAllEmployees();
+
+
+
+function:
+CREATE FUNCTION Customer_Occupation(  
+    age int  
+)   
+RETURNS VARCHAR(20)  
+DETERMINISTIC  
+BEGIN  
+    DECLARE customer_occupation VARCHAR(20);  
+    IF age > 35 THEN  
+        SET customer_occupation = 'Scientist';  
+    ELSEIF (age <= 35 AND   
+            age >= 30) THEN  
+        SET customer_occupation = 'Engineer';  
+    ELSEIF age < 30 THEN  
+        SET customer_occupation = 'Actor';  
+    END IF;  
+    -- return the customer occupation  
+    RETURN (customer_occupation);  
+END$$  
+
+SELECT name, age, Customer_Occupation(age)  
+FROM customer ORDER BY age;  
+
+
+
+
+CLAUSES::
+---------
+MySQL WHERE
+MySQL DISTINCT
+MySQL FROM
+MySQLORDER BY
+MySQL GROUP BY
+MySQL HAVING
+
+
+
+indexes:
+mysql> CREATE INDEX [index_name] ON [table_name] (column names)  
+
+mysql> CREATE INDEX ind_1 ON t_index(col4);  
+
+
+
+MySQL Keys:
+----------
+MySQL Unique Key
+MySQL Primary Key
+MySQL Foreign Key
+MySQL Composite Key
+
+//department vs highest salary single table
+SELECT DEPT_ID, MAX(SALARY) FROM department GROUP BY DEPT_ID;
+select Dept_Id,max(salary) from Employees Group by Dept_Id;
+//two tables vs department max salary
+select d.name As 'Department',e.name As 'Employee',
+e.salary From Employee e INNER JOIN Department d ON 
+e.departmentId=d.id WHERE(DepartmentId,Salary)
+IN(SELECT DepartmentId,MAX(salary)
+FROM EMPLOYEES GROUP BY DepartmentId)
+
+//online run sql compiler
+https://onecompiler.com/mysql/429knhj3d
+//duplicates rows display
+SELECT OrderId,count(OrderId) from Orders group by orderId Having count(orderId);
+SELECT OrderId,ProductId,COUNT(*) FROM OrderDetails group by OrderId,ProductId Having COUNT(*)>1
+https://learnsql.com/blog/how-to-find-duplicate-values-in-sql/
+//union and union all
+https://www.geeksforgeeks.org/union-vs-union-all-in-sql/
